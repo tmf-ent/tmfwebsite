@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -4152,11 +4152,13 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  
 }
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
 }
+
 
 .nav-link.disabled {
   color: #7F7F7F;
@@ -4294,6 +4296,8 @@ input[type="button"].btn-block {
 .navbar-nav .nav-link {
   padding-left: 0;
   padding-right: 0;
+              color: #ffffff;
+
 }
 
 .navbar-nav .dropdown-menu {
@@ -4322,13 +4326,15 @@ input[type="button"].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.333rem;
   line-height: 1;
-  background-color: transparent;
+  background-color: red;
   border: 1px solid transparent;
   border-radius: 0.1875rem;
+
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
+  color:red;
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
