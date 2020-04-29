@@ -26,7 +26,6 @@
             display: block; /* Hidden by default */
             z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
             margin-top:190px;
-
         }
         .overlay2 {
             position: absolute; /* Sit on top of the page content */
@@ -48,23 +47,13 @@
         }
 
         .text-header {
-            color:white;
+            color: white;
             font-family: sans-serif;
             font-size: 55px;
-            font-weight:900;
-
+            font-weight: 900;
         }
 
-        #rectangle {
-            width: 420px;
-            height: 55px;
-            background: #581111;
-            margin-left: 15px;
-            margin-top:45px; 
-            border-radius:0 45px 0 45px
-        }
-
-    
+        
     </style>
 
     <!-- ============================================-->
@@ -123,61 +112,67 @@
         </div>
     </nav>
 
-    <section id="banner" style="margin-top:85px; background-image:url(Content/assets/img/wix/merchbg.png); background-size:cover">
+    <section id="banner" style="background-image:url(Content/assets/img/wix/trophybanner.png); background-size:cover; margin-top:85px; height:500px;">
 
         <div class="row justify-content-center">
-
-            <div class="overlay">
-                <div data-zanim-xs='{"delay": 0.4, animation": "blur-in"}' data-zanim-trigger="scroll">
-                    <strong class="fs-4" style="color:white; text-shadow: 2px 2px 4px #000000" ">YOUR BAND NEVER</strong> <br>
-                    <strong class="fs-4" style="color:red; text-shadow: 2px 2px 4px #000000" ">LOOKED SO GOOD</strong>
-                </div>
-            </div>
-
-            <div data-zanim-xs='{"animation": "slide-left"}' data-zanim-trigger="scroll">
-                <img src="Content/assets/img/wix/fmerch.png" style="border-radius: 240px 0px 0px 240px;">
-            </div>
-            <div data-zanim-xs='{"animation": "slide-right"}' data-zanim-trigger="scroll">
-                <img src="Content/assets/img/wix/mmerch.png" style="margin-top: 75px; border-radius: 0px 240px 240px 0px;">
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-                <center>
-                    <button type="button" class="btn btn-light" style="margin:auto; width:200px; height:50px; box-shadow: 5px 10px 8px #000000;">Shop</button>
-                </center>
-            </div>
-            <div class="col-md-6">
-                <center>
-                    <button type="button" class="btn btn-light" style="margin:auto; width:200px; height:50px; box-shadow: 5px 10px 8px #000000;">Catalog</button>
-                </center>
-            </div>
-        </div>
-    </section>
-
-    <section style="background-color:#242323">
-        
-        <div class="container">
-            <div class="row" style="margin-left:15%">
-                <div id="rectangle">
-                </div>
-                <div class="overlay2">
-                    <strong class="text-header" style="letter-spacing:3px">THE BUNDLE</strong> <br>
-                </div>
-                <img src="Content/assets/img/wix/merch.png" style="margin-top:15px">
-            </div>
+            <h1 class="fs-3 fs-sm-4 fs-md-5 text-white parallax display-4" data-rellax-speed="4">
+                <span class="overflow-hidden d-block"><span class="d-inline-block font-weight-black" /></span><span class="overflow-hidden d-block"><span class="d-inline-block text-uppercase d-block py-1">Awards and Trophies</span></span>
+                
+            </h1>
         </div>
 
     </section>
 
     <section>
-        <div class="row justify-content-center">
-            <img src="Content/assets/img/wix/patches.png">
+        <h1 class="fs-4 text-center mb-5">Past Years Best Sellers</h1>
+       
+        <div class="card-deck justify-content-center">
+            <div class="card col-md-3" style="width: 20vh">
+                <center>
+                    <img src="Content/assets/img/trophy.png" class="card-img-top" style="width:200px; height:200px;">
+                </center>
+                <div class="card-body">
+                    <h5 class="card-title">Name of Item goes here</h5>
+                    <p class="card-text"><strong>Description: </strong>This is a description for the trophy that is going to be displayed.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Price: </strong>$50.00</li>
+                    <li class="list-group-item"><strong>Item #: </strong>ABC1321654</li>
+                    <li class="list-group-item"><strong>Model#: </strong>XLKJDF6549814</li>
+                </ul>
+            </div>
+            <div class="card col-md-3" style="width: 20rem">
+                <center>
+                    <img src="Content/assets/img/trophy.png" class="card-img-top mt-2" style="width:200px; height:200px;">
+                </center>
+                <div class="card-body">
+                    <h5 class="card-title">Name of Item goes here</h5>
+                    <p class="card-text"><strong>Description: </strong>This is a description for the trophy that is going to be displayed.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Price: </strong>$50.00</li>
+                    <li class="list-group-item"><strong>Item #: </strong>ABC1321654</li>
+                    <li class="list-group-item"><strong>Model#: </strong>XLKJDF6549814</li>
+                </ul>
+            </div>
+            <div class="card col-md-3" style="width: 20rem">
+                <center>
+                    <img src="Content/assets/img/trophy.png" class="card-img-top mt-2" style="width:200px; height:200px;">
+                </center>
+                <div class="card-body">
+                    <h5 class="card-title">Name of Item goes here</h5>
+                    <p class="card-text"><strong>Description: </strong>This is a description for the trophy that is going to be displayed.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Price: </strong>$50.00</li>
+                    <li class="list-group-item"><strong>Item #: </strong>ABC1321654</li>
+                    <li class="list-group-item"><strong>Model#: </strong>XLKJDF6549814</li>
+                </ul>
+            </div>
         </div>
+
     </section>
 
-    
 
 
     <footer class="footer bg-black text-600 py-4 text-sans-serif text-center overflow-hidden" data-zanim-timeline="{}" data-zanim-trigger="scroll">
